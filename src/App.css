@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.App{
+  border-radius: 10px;
+  border: #901aff 3px solid;
+  background-color:   #e6ccff;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  padding: 15px;
+  min-height: 500px;
+  margin-top: 100px;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: double;
+  font-weight: bold;
+  text-align: center;
+}
+
+input[type=text]{
+  width: 200px;
+  float: left;
+  height: 40px;
+  border: 2px solid #901aff;
+}
+
+.addButton{
+  width: 100px;
+  float: left;
+  margin-left: 5px;
+  height: 46px;
+  background-color: #901aff;
+  color: #fff;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.addButton:hover{
+  border: none;
+  cursor: pointer;
+  border: groove 3px  #260033;
+}
+
+h3{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: double;
+  font-weight: bold;
+  font-size: 24px;
+  width: 110px;
+
+}
+
+.listItem{
+  margin-top: 30px;
+}
+
+.oneItem{
+  margin-top: 10px;
+  width: 500px;
+  font-size: 18px;
+  height: 38px;
+  font-weight: bold;
+  padding: 2px;
+}
+
+.numbers{
+  width: 100px;
+  float: left;
+  text-align: center;
+}
+
+.itemNumber{
+  float: left;
+  margin-right: 10px;
+}
+
+.counter{
+  background-color:#f3e6ff;
+  margin-left: 5px;
+  float: left;
+}
+
+.nameItem{
+  height: 52px;
+  float: left;
+}
+
+.removeItem{
+  background-color: #901aff;
+  border: none;
+  margin: 5px;
+  float: left;
+}
+
+.removeItem:hover{
+  background-color: #f3e6ff;
+  border: 1px solid #260033;
+}
+
+.error{
+  clear: both;
+  color: red;
+  font-weight: bold;
+}
+
