@@ -24,7 +24,7 @@ function ToDoList(props){
         if (todos.some(todo=>todo===inputValue)){
             setTodoListState({
                 ...todoListState,
-                error: "Ten produkt jest już na liście",
+                error: "This product is already on the list",
                 inputValue: ""
             })
 
