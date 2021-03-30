@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import Todo from './Todo'
+import Todo from './Item'
 
 function ToDoList(props){
     const [todoListState, setTodoListState] = useState( {todos: ["apple", "banana"], inputValue: "", error: ""})
